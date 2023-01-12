@@ -1,0 +1,19 @@
+{
+    "env": {
+        "commonjs": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": "standard",
+    "overrides": [
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+			"indent": ["error", "tab"],
+			"no-tabs": ["error", { "allowIndentationTabs": true }],
+			"quote-props": ["error", "as-needed", { "unnecessary": false }],
+			"quotes": ["error", "double"]
+    }
+}
